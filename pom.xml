@@ -46,9 +46,9 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:ssh://github.com/anithavivedhan/jenkins-chatroom.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/anithavivedhan/jenkins-chatroom</developerConnection>
-        <url>https://github.com/anithavivedhan/jenkins-chatroom</url>
+        <connection>scm:git:ssh://github.com/anithavivedhan/chatroom-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/anithavivedhan/chatroom-plugin</developerConnection>
+        <url>https://github.com/anithavivedhan/chatroom-plugin</url>
       <tag>ChatRoom-1.0</tag>
   </scm>
 
