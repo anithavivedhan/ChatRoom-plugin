@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: ChatRoom
+Long-Name: Jenkins Chat Room Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/ChatRoom+Plugin
+Plugin-Version: 1.0
+Hudson-Version: 1.509.3
+Jenkins-Version: 1.509.3
+Plugin-Developers: anitha:anitha:
+Libraries: D:\jenkins-ChatRoom-plugin\jenkins-ChatRoom-plugin-master\t
+ arget\checkout\target\classes,C:\Users\Anitha\.m2\repository\commons-
+ codec\commons-codec\1.2\commons-codec-1.2.jar,C:\Users\Anitha\.m2\rep
+ ository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-
+ 3.1.jar
+Resource-Path: D:\jenkins-ChatRoom-plugin\jenkins-ChatRoom-plugin-mast
+ er\target\checkout\src\main\webapp
+

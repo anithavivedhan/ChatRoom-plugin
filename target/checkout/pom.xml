@@ -21,7 +21,7 @@
     <groupId>org.jvnet.hudson.plugins</groupId>
 	<artifactId>ChatRoom</artifactId>
 	<packaging>hpi</packaging>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
 	<name>Jenkins Chat Room Plugin</name>
 	<description>A Build status publisher that notifies on Chat Room</description>
         <url>https://wiki.jenkins-ci.org/display/JENKINS/ChatRoom+Plugin</url>
