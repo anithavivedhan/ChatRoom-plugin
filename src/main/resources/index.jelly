@@ -1,0 +1,6 @@
+<!--
+  This view is used to render the plugin list page.
+  -->
+<div>
+  This plugin is a Chat Notifier that can publish build status to chat rooms.
+</div>

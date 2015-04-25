@@ -1,0 +1,32 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    This Jelly script is used to produce the global configuration option.
+
+    Hudson uses a set of tag libraries to provide uniformity in forms.
+    To determine where this tag is defined, first check the namespace URI,
+    and then look under $HUDSON/views/. For example, <f:section> is defined
+    in $HUDSON/views/lib/form/section.jelly.
+
+    It's also often useful to just check other similar scripts to see what
+    tags they use. Views are always organized according to its owner class,
+    so it should be straightforward to find them.
+  -->
+<f:section title="Global Chat Notifier Settings" >
+      <f:entry title="Chat Server URL" >
+        <f:textbox name="ServerURL" value="http://localhost:50265/Default.aspx" />
+    </f:entry>
+     <f:entry title="API Token" >
+        <f:textbox name="API Token" value="COHKEN360JD00W43W8BT3X4O23S3T8V4" />
+    </f:entry>
+    <f:entry title="Room" >
+        <f:textbox name="Chat Room" value="Managers" />
+    </f:entry>
+    <f:entry title="Build Server URL" >
+        <f:textbox name="BuildServerUrl" value="${descriptor.getBuildServerUrl()}" />
+    </f:entry>
+    <f:entry title="Send As" >
+        <f:textbox name="ChatSendAs" value="${descriptor.getSendAs()}" />
+    </f:entry>
+    
+  </f:section>
+</j:jelly>
