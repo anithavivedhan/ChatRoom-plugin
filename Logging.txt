@@ -1,6 +1,6 @@
-Apr 25, 2015 5:36:03 PM jenkins.plugins.ChatRooms.StandardChatService publish
+Apr 25, 2015 5:56:14 PM jenkins.plugins.ChatRooms.StandardChatService publish
 INFO: Posting: from to room: message yellow
-Apr 25, 2015 5:36:08 PM jenkins.plugins.ChatRooms.StandardChatService publish
+Apr 25, 2015 5:56:19 PM jenkins.plugins.ChatRooms.StandardChatService publish
 WARNING: Error posting to Chat Room
 java.net.ConnectException: Connection refused: connect
 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
